@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+            <!-- Mobile Logo (Center on Small Screens) -->
+            <a class="navbar-brand mx-auto d-lg-none" href="#">
+                <img src="./images/axiom logo_upscayl_6x_realesrgan-x4plus 1.png" alt="Axiom Logo" class="img-fluid">
+            </a>
+    
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Left Links -->
+                <ul class="navbar-nav flex-grow-1 justify-content-start">
+                    <li class="nav-item mr_2"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item mr_2"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                </ul>
+    
+                <!-- Center Logo -->
+                <a class="navbar-brand d-none d-lg-block mx-auto" href="#">
+                    <img src="./images/axiom logo_upscayl_6x_realesrgan-x4plus 1.png" alt="Axiom Logo" class="img-fluid" height="100">
+                </a>
+    
+                <!-- Right Links + Button -->
+                <div class="d-flex flex-grow-1 justify-content-end align-items-center">
+                    <ul class="navbar-nav mr_2">
+                        <li class="nav-item"><a class="nav-link" href="#">Treatments</a></li>
+                    </ul>
+                    <a href="#" class="btn btn-red ms-3">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section class="container-fluid">
+        <div class="row align-items-center">
+            <!-- Left Content -->
+            <div class="col-md-6 text-white p-5 ps-5 for_hight" style="background-color: #333;">
+                <div class="mb-3">
+                    <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i> Rating 5.0
+                    </span>
+                </div>
+                <h1 class="fw-bold">
+                    Advanced Medical & Aesthetic <span class="text-white bg-danger px-2">Wellness</span>
+                </h1>
+                <p class="mt-3">
+                    We empower individuals to achieve optimal health, vitality, and confidence.
+                    Our approach combines personalized care with cutting-edge treatments to deliver exceptional results.
+                </p>
+                <div class="d-flex gap-3 mt-4">
+                    <a href="#" class="btn btn-danger">Book an appointment →</a>
+                    <a href="#" class="btn btn-outline-light">Contact Us</a>
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="col-md-6 p-0">
+                <img src="./images/Rectangle 1.png" alt="Aesthetic Treatment" class="img-fluid w-100 for_hight">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-light-pink">
+        <div class="container py-5">
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card text-center border-0 shadow-sm p-4">
+                        <div class="icon-circle mx-auto">
+                            <img src="./images/Group 2.png" alt="Medical Weight Management">
+                        </div>
+                        <h5 class="mt-3 fw-bold">Medical Weight Management</h5>
+                        <p class="text-muted">Advanced solution including Semaglutide & Trizepatide Treatments</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card text-center border-0 shadow-sm p-4">
+                        <div class="icon-circle mx-auto">
+                            <img src="./images/Group 8.png" alt="Aesthetic Treatment">
+                        </div>
+                        <h5 class="mt-3 fw-bold">Aesthetic Treatment</h5>
+                        <p class="text-muted">Cutting-edge procedures for skin rejuvenation and body contouring</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card text-center border-0 shadow-sm p-4">
+                        <div class="icon-circle mx-auto">
+                            <img src="./images/Group 8.png" alt="IV Therapy">
+                        </div>
+                        <h5 class="mt-3 fw-bold">IV Therapy</h5>
+                        <p class="text-muted">Customized IV treatments for enhanced wellness and recovery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container">
+            <p class="text-danger fw-bold">OUR SERVICES</p>
+            <h2 class="fw-bold">We Offer A Wide Range Of <br> Healthcare Services</h2>
+
+            <div class="d-flex justify-content-end align-items-center gap-4 my-4">
+                <button class="btn btn-outline-dark rounded-circle"><i class="fas fa-arrow-left"></i></button>
+                <button class="btn btn-outline-light rounded-circle bg-dark"><i class="fas fa-arrow-right"></i></button>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="position-relative">
+                        <img src="./images/Group 22.png" class="img-fluid rounded" alt="Semaglutide & Tirzepatide">
+
+                        <div class="p-3 bg-white rounded position-absolute bottom-0 start-0 w-75">
+                            <p class="fw-bold m-0">Semaglutide & Tirzepatide</p>
+                            <p class="small text-muted">Innovative medications for effective weight management.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="position-relative">
+                        <img src="./images/Group 23.png" class="img-fluid rounded" alt="Microdermabrasion">
+
+                        <div class="p-3 bg-white rounded position-absolute bottom-0 start-0 w-75">
+                            <p class="fw-bold m-0">Microdermabrasion</p>
+                            <p class="small text-muted">Innovative medications for effective weight management.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="position-relative">
+                        <img src="./images/Group 37.png" class="img-fluid rounded" alt="Red Light Therapy">
+
+                        <div class="p-3 bg-white rounded position-absolute bottom-0 start-0 w-75">
+                            <p class="fw-bold m-0">Red Light Therapy</p>
+                            <p class="small text-muted">Innovative medications for effective weight management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" style="background-color: #ffe8e8;">
+        <div class="container">
+            <div class="row align-items-center g-2">
+                <div class="col-lg-6">
+                    <h6 class="text-danger fw-bold">OUR SERVICES</h6>
+                    <h2 class="fw-bold">Your Partner in Health, Wellness, and Confidence</h2>
+                    <p>
+                        At Axiom Medical Wellness, we are redefining health and beauty through a perfect blend of
+                        advanced medical expertise and aesthetic innovation. Our mission is to empower you to look and
+                        feel your best with personalized care and cutting-edge treatments tailored to your unique goals.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2">
+                            <span class="text-danger me-2">&#x2714;</span> Cutting-edge medical and aesthetic solutions
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <span class="text-danger me-2">&#x2714;</span> Personalized care for unique goals
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <span class="text-danger me-2">&#x2714;</span> Expert team of qualified professionals
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <span class="text-danger me-2">&#x2714;</span> Holistic approach to health and wellness
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <span class="text-danger me-2">&#x2714;</span> Proven results with advanced treatments
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-dark mt-3">Learn More about Us &#8594;</a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="./images/Rectangle 9.png" alt="Medical Team" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="row pt-3 text-center mt-5 border-top border-secondary">
+                <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolore nostrum
+                    cumque expedita. Temporibus, porro.sit amet consectetur adipisicing elit. Asperiores dolore nostrum
+                    cumque expedita. Temporibus, porro.</div>
+                <div class="col-md-2">
+                    <h2 class="text-danger fw-bold">16+</h2>
+                    <p>Years Of Experience</p>
+                </div>
+                <div class="col-md-2">
+                    <h2 class="text-danger fw-bold">7K+</h2>
+                    <p>Patients Transformed</p>
+                </div>
+                <div class="col-md-2">
+                    <h2 class="text-danger fw-bold">2K+</h2>
+                    <p>Regular Appointments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" style="background-color: #fff;">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Left Card -->
+                <div class="col-md-6">
+                    <div class="position-relative w-100 h-100" style="border-radius: 15px !important;">
+                        <img src="./images/Rectangle 10.png" class="img-fluid rounded w-100 h-100"
+                            alt="Medical Weight Management">
+                        <div class="position-absolute bottom-0 start-0   p-3 text-white"
+                            style="background-color: #F45561; border-bottom-right-radius: 15px;border-bottom-left-radius: 15px;">
+                            <h5 class="fw-bold">Medical Weight Management</h5>
+                            <p class="mb-0">Experience effective weight management with Semaglutide, Tirzepatide, and
+                                non-invasive CoolSculpting for a healthier, more confident you.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Card -->
+                <div class="col-md-6">
+                    <div class="h-100 p-4 text-white rounded"
+                        style="background-color: #F45561; border-radius: 15px !important;">
+                        <h5 class="fw-bold">Radiate Confidence with </h5>
+                        <h5 class="fw-bold"> Advanced Aesthetic Care</h5>
+                        <p class="col-md-6">Rejuvenate your skin and body with Microneedling, Microdermabrasion, and Red
+                            Light Therapy, designed to enhance your natural beauty.</p>
+                        <img src="./images/[freepicdownloader.com]-handsome-young-doctor-isolated-white-large 1.png"
+                            class="img-fluid rounded mt-3" alt="Aesthetic Care">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center  p-4 rounded  for_backround">
+                <!-- Image Section -->
+                <div class="col-md-5">
+                    <img src="./images/Rectangle 12 (2).png" class="img-fluid rounded"
+                        alt="Revitalize Your Body and Mind">
+                </div>
+
+                <!-- Text Section -->
+                <div class="col-md-7">
+                    <h3 class="fw-bold">Revitalize Your Body and Mind</h3>
+                    <p>Revitalize your body and mind with tailored wellness solutions designed to restore balance and
+                        energy. Our therapies, including Testosterone HRT and IV Therapy, are crafted to enhance
+                        vitality, boost performance, and improve overall well-being. Experience a renewed sense of
+                        strength, focus, and confidence through our holistic approach to health.</p>
+                    <a href="#" class="btn btn-dark d-inline-flex align-items-center">
+                        Discover Wellness
+                        <span class="ms-2">↗</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <h6 class="text-danger fw-bold">MEET OUR EXPERTS</h6>
+            <h2 class="fw-bold">Dedicated Professionals Committed To Your Well-Being</h2>
+
+            <div class="row mt-4">
+                <!-- Doctor 1 -->
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm position-relative">
+                        <img src="./images/Group 30.png" class="card-img-top rounded" alt="Dr. Jason Durnas">
+                        <div class="card-body text-center bg-light position-absolute bottom-0">
+                            <h6 class="fw-bold">Dr. Jason Durnas</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 2 -->
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm position-relative">
+                        <img src="./images/Group 31.png" class="card-img-top rounded" alt="Dr. Jimmy Carter">
+                        <div class="card-body text-center bg-light position-absolute bottom-0">
+                            <h6 class="fw-bold">Dr. Jimmy Carter</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 3 -->
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm position-relative">
+                        <img src="./images/Group 34.png" class="card-img-top rounded" alt="Dr. Lydia Savic">
+                        <div class="card-body text-center bg-light position-absolute bottom-0">
+                            <h6 class="fw-bold">Dr. Lydia Savic</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 4 -->
+                <div class="col-md-3">
+                    <div class="card border-0 shadow-sm position-relative">
+                        <img src="./images/Group 33.png" class="card-img-top rounded" alt="Dr. Jason Durnas">
+                        <div class="card-body text-center bg-light position-absolute bottom-0 start-0">
+                            <h6 class="fw-bold">Dr. Jason Durnas</h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" style="background-color: #ffe8e8;">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-md-5">
+                    <div class="bg-white p-3 rounded shadow-sm">
+                        <div class="row px-md-3 g-2 d-flex justify-content-between align-items-center text-center">
+                            <div class="col-md-5  text-center p-4"
+                                style="border-radius: 15px !important; background-color: #F74654;">
+                                <span class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <h4 class="text-white fw-bold">5.0</h4>
+                                <p class="mb-0 text-white">Trustpilot Rating</p>
+                            </div>
+                            <div class="col-md-5 text-center  bg-danger  p-4"
+                                style="border-radius: 15px !important; background-color: #FF737E;">
+                                <span class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                                <h4 class="text-white fw-bold">100+</h4>
+                                <p class="mb-0 text-white">Patient Review</p>
+                            </div>
+                        </div>
+                        <img src="./images/Rectangle 18.png" alt="Patient Review" class="img-fluid rounded mt-3 w-100">
+                    </div>
+                </div>
+                <div class="col-md-7 ">
+                    <h6 class="text-danger fw-bold">TESTIMONIALS</h6>
+                    <h2 class="fw-bold">What Our Patients Say</h2>
+                    <div class="bg-white p-4 rounded shadow-sm mt-3">
+                        <a class="display-6 text-danger qute_font"><i class="fas fa-quote-left"></i></a>
+                        <p>
+                            Lorem ipsum dolor amet, consectetur adipiscing elit. Imperdiet nullam porttitor sed iaculis
+                            nulla porta faucibus volutpat vestibulum. Integer potenti tristique risus primis tellus, nec
+                            varius dapibus lobortis. Aenean amet congue ante nullam nulla lorem condimentum sit
+                            hendrerit.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor amet, consectetur adipiscing elit. Gravida morbi per taciti lacinia;
+                            aenean luctus penatibus tortor. Sociocsu parturient litora quam laoreet praesent placerat.
+                        </p>
+                        <div class="d-flex align-items-center mt-5">
+                            <img src="./images/Ellipse 8.png" alt="User" class="rounded-circle me-2" width="40">
+                            <div>
+                                <strong>Angelina Robert</strong>
+                                <p class="mb-0 text-muted">Business Woman</p>
+                            </div>
+                        </div>
+                        <div class="text-end mt-3">
+                            <button class="btn  border rounded-circle me-2 for_font_2">&#8592;</button>
+                            <button class="btn btn-light border rounded-circle for_font_2">&#8594;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid   position-relative py-5 text-white" style="background-color: #E80A1B;">
+        <div class="container text-center">
+            <h2 class="fw-bold">Start Your Wellness Journey Today</h2>
+            <p class="mb-4">Ready to take the next step towards a healthier you?</p>
+            <a href="#" class="btn btn-dark">Book Your Consultation →</a>
+        </div>
+
+
+        <img src="./images/46592 (1) 1.png" alt="Doctor"
+            class="position-absolute start-0 top-50 translate-middle-y img-fluid d-none d-md-block"
+            style="max-width: 350px;">
+
+
+        <img src="./images/16747 1.png" alt="Treatment"
+            class="position-absolute end-0 top-50 translate-middle-y img-fluid d-none d-md-block"
+            style="max-width: 350px;">
+    </section>
+
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Logo & Social Media -->
+                <div class="col-md-4 text-center text-md-start">
+                    <img src="./images/axiom logo_upscayl_6x_realesrgan-x4plus 1.png" alt="Axiom Logo"
+                        style="max-width: 120px;">
+                    <div class="mt-3 d-flex gap-3 justify-content-center justify-content-md-start">
+                        <a href="#" class="text-danger fs-4"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-danger fs-4"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-danger fs-4"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <!-- Menu -->
+                <div class="col-md-2 text-center text-md-start">
+                    <h5 class="fw-bold">Menu</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">The Team</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-md-3 text-center text-md-start">
+                    <h5 class="fw-bold">Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Semaglutide</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Tirzepatide</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Cool Sculpting</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Red Light Therapy</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">More</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-md-3 text-center text-md-start">
+                    <h5 class="fw-bold">Contact Info</h5>
+                    <p class="mb-1"><i class="fas fa-phone text-danger"></i> 630-699-3786</p>
+                    <p class="mb-1">
+                        <i class="fas fa-envelope text-danger"></i>
+                        <a href="mailto:answers@axiommedicalwellness.com"
+                            class="text-white text-decoration-none">answers@axiommedicalwellness.com</a>
+                    </p>
+                    <p><i class="fas fa-map-marker-alt text-danger"></i> 2272 95th St. Suite 125 Naperville IL, 60564
+                    </p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center mt-4 border-top pt-3">
+                <small>©2025 <a href="#" class="text-white text-decoration-none">Axiom Medical Wellness</a> | Privacy
+                    Policy</small>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- Include FontAwesome for icons -->
+    <!-- <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script> -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
